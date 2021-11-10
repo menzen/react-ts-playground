@@ -1,4 +1,5 @@
 import * as React from 'react';
+import * as R from 'ramda';
 import { render } from 'react-dom';
 import './style.css';
 
@@ -29,6 +30,7 @@ const animal: FlyingAnimal = {
 
 const App = () => {
   const { name, color, age, canFly } = animal;
+  console.log(R);
 
   return (
     <div>

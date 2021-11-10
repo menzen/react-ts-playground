@@ -29,18 +29,11 @@ const animal: FlyingAnimal = {
 };
 
 const App = () => {
-  const { name, color, age, canFly } = animal;
-
-  console.log(R);
-  console.log(animal);
+  console.log(R, animal);
 
   return (
     <div>
-      <h1>REACT - TS - PLAYGROUND</h1>
-      <div>
-        {name} is {color} and {age} years old and{' '}
-        {canFly ? 'can fly' : 'can not fly'} :-)
-      </div>
+      <h1>PLAYGROUND</h1>
     </div>
   );
 };

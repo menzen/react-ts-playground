@@ -30,7 +30,9 @@ const animal: FlyingAnimal = {
 
 const App = () => {
   const { name, color, age, canFly } = animal;
+
   console.log(R);
+  console.log(animal);
 
   return (
     <div>

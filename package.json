@@ -8,7 +8,8 @@
     "@types/react-dom": "^16.8.0",
     "ramda": "^0.27.1",
     "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "react-dom": "^16.8.0",
+    "swr": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts-ts start",
